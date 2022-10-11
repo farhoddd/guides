@@ -1,0 +1,58 @@
+.profile {
+  &Title{
+    margin-top: 45px;
+  }
+  &Tabs{
+    margin-top: 40px;
+  }
+  &Main {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .profile{
+    &Title{
+      margin-top: 40px;
+    }
+    &Tabs{
+      margin-top: 30px;
+    }
+    &Main{
+      margin-top: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .profile{
+    &Title{
+      margin-top: 35px;
+    }
+    &Tabs{
+      margin-top: 25px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .profile{
+    &Title{
+      margin-top: 25px;
+    }
+    &Tabs{
+      margin-top: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 425px){
+  .profile{
+    &Title{
+      margin-top: 20px;
+    }
+    &Tabs{
+      margin-top: 15px;
+    }
+  }
+}

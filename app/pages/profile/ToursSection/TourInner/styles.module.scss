@@ -1,0 +1,73 @@
+.tour{
+  &Top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &BaseImage{
+    width: 100%;
+    height: 400px;
+    border: 1px solid var(--dark);
+    border-radius: 50px;
+    margin-top: 2rem;
+    figure{
+      border-radius: inherit;
+      width: 100%;
+      height: 100%;
+      img{
+        border-radius: inherit;
+        width: 100%;
+        height: 100%;
+      }
+      figcaption{
+        margin-top: 0.5rem;
+        font-size: 0.8rem;
+        text-align: center;
+      }
+    }
+  }
+  &GeneralInformation{
+    margin-top: 5rem;
+    border-top: 0.5px solid var(--blue-light);
+    border-bottom: 0.5px solid var(--blue-light);
+    padding: 25px 0;
+    font-size: 18px;
+    &Language{
+      margin-bottom: 10px;
+      font-weight: 500;
+      select{
+        margin-left: 0.8rem;
+        border-radius: 5px;
+        padding: 2px 5px;
+      }
+    }
+    h4{
+      margin-bottom: 1.5rem;
+    }
+    p{
+      display: flex;
+      justify-content: space-between;
+      span{
+        font-weight: 500;
+      }
+    }
+  }
+  &Gallery{
+    padding: 25px 0;
+    &Images{
+      margin-top: 1.5rem;
+      display: flex;
+      &Item{
+        height: 250px;
+        width: 300px;
+        margin-right: 1rem;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

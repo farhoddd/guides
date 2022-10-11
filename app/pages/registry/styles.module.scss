@@ -1,0 +1,62 @@
+.rating{
+  margin-top: 40px;
+}
+
+.list{
+  margin-top: 50px;
+  th{
+    tr{
+      background: #EDF9FF !important;
+      td{
+        background: #EDF9FF !important;
+      }
+    }
+  }
+  &Search{
+    width: 250px;
+  }
+  &Active{
+    color: var(--gold-black);
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .list{
+    td{
+      font-size: 13px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .list{
+    overflow: auto;
+    td{
+      font-size: 12px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .list{
+    td{
+      font-size: 11px;
+    }
+  }
+}
+
+@media screen and (max-width: 645px){
+  .list{
+    td{
+      font-size: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 576px){
+
+}
+
+@media screen and (max-width: 425px){
+
+}

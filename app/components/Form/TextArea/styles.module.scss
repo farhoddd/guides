@@ -1,0 +1,49 @@
+.textArea{
+  font-weight: normal;
+  font-size: 14px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  width: 100%;
+  color: #0E1839;
+  padding: 10px 15px;
+  border: 1px solid #0E1839;
+  resize: none;
+}
+
+.inputGroup{
+
+}
+
+@media screen and (max-width: 1200px){
+  .textArea{
+    padding: 9px 14px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .textArea{
+    padding: 8px 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .textArea{
+    padding: 7px 12px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .textArea{
+    padding: 6px 11px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .textArea{
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (max-width: 425px){
+}

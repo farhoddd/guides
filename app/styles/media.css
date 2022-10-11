@@ -1,0 +1,1113 @@
+@media screen and (max-width: 3000px) {
+
+}
+@media screen and (max-width: 2000px) {
+
+}
+@media screen and (max-width: 1920px) {
+
+}
+@media screen and (max-width: 1880px) {
+
+}
+@media screen and (max-width: 1536px) {
+
+}
+@media screen and (max-width: 1366px) {
+    header {
+        padding-top: 25px;
+    }
+
+    .slider__arrows--registry {
+        display: flex;
+        position: relative;
+        margin-top: 30px;
+    }
+
+    .registry__slider--block .slider__arrow {
+        position: static;
+        transform: translateY(0);
+        margin-right: 20px;
+    }
+
+    .registry__slider--block .slider__arrow:last-child {
+        margin-right: 0;
+    }
+
+    .registry__tabs--item {
+        margin-right: 20px;
+    }
+    .education__item--img {
+        height: 350px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 20px 0;
+    }
+
+    .header__menu {
+        display: none;
+    }
+    .header__lang--burger {
+        display: block;
+    }
+
+    .task__item--text {
+        font-size: 14px;
+    }
+
+    .section__title {
+        font-size: 30px;
+    }
+
+    .section {
+        padding: 25px 0;
+    }
+
+    .section__bg {
+        padding: 60px 0;
+        margin: 25px 0;
+    }
+
+    .section__reviews {
+        padding: 25px 0;
+    }
+
+    .section__registry {
+        padding-bottom: 25px;
+    }
+
+    .section__level {
+        padding-top: 25px;
+    }
+
+
+    .footer__menu--list .menu {
+        width: 50%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .footer__menu--list {
+        flex-wrap: wrap;
+    }
+    .banner__block {
+        padding: 60px 50px 70px 45px;
+    }
+
+    .banner__block--apps img {
+        max-width: 100%;
+    }
+
+    .header__mobile{
+        display: block;
+    }
+
+    .registry__page {
+        margin-top: 0;
+    }
+
+    .registry__page--right {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /*-----------------------------*/
+    .registry__page--left {
+        width: 200px;
+        height: 200px;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .registry__page--img {
+        border-width: 5px;
+    }
+
+    .registry__page {
+        padding-left: 0;
+        margin-top: 100px;
+        height: auto;
+    }
+
+    .registry__page--right {
+        padding: 40px;
+        padding-top: 120px;
+        border-radius: 50px;
+    }
+
+    .registry__page--info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .registry__info--price-block {
+        text-align: center;
+    }
+    .registry_page__title--block {
+        position: relative;
+    }
+
+    .registry__info--rating {
+        position: absolute;
+        left: 100%;
+    }
+
+    .cabinet__my--block .cabinet__info--footer {
+        flex-direction: column;
+    }
+
+    .cabinet__info--qrcode {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .cabinet__info--certificate {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .cabinet__certificate--right {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .cabinet__info--block {
+        padding: 100px 40px;
+    }
+
+    .questions__item {
+        padding-left: 60px;
+    }
+
+    .questions__item--info {
+        padding: 30px 35px;
+    }
+
+    .education__item--img {
+        height: 300px;
+    }
+    .education__item--title {
+        font-size: 20px;
+        left: 30px;
+        right: 30px;
+        bottom: 30px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .form__block--yellow,
+    .form__block--blue {
+        padding: 50px 60px;
+    }
+
+    .banner__block--right {
+        max-height: 110%;
+        bottom: -10%;
+        height: 110%;
+    }
+
+    .banner__block--right img {
+        max-height: 100%;
+        height: 100%;
+    }
+
+    .banner__block {
+        margin-bottom: 40px;
+    }
+
+}
+@media screen and (max-width: 1024px) {
+    .form__block--yellow,
+    .form__block--blue {
+        padding: 50px 60px;
+    }
+    .advantage__row {
+        display: none;
+    }
+    .advantage__swiper--block {
+        display: block;
+    }
+    .work__swiper--block .swiper-slide {
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+    .work__swiper--block .slider__arrows--block {
+        margin-top: 5px;
+    }
+    .advantage__item--icon img {
+        max-height: 90px;
+        max-width: 100%;
+    }
+
+    .account__page--right {
+        max-width: 200px;
+    }
+
+    .account__page--img img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .account__bage--btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .account__info--edit {
+        margin-right: 30px;
+    }
+
+    .account__pageedit--right {
+        align-items: center;
+    }
+}
+@media screen and (max-width: 992px) {
+    .education__info--item {
+        margin: 10px 0;
+    }
+    .education__tabs--item a {
+        font-size: 25px;
+    }
+    .account__page--right {
+        display: none;
+    }
+    .account__page--info {
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .banner__block {
+        height: auto;
+    }
+
+    .banner__block--desc {
+        margin-bottom: 25px;
+    }
+
+    .banner__block--apps {
+        margin-top: 25px;
+    }
+
+    .about__block--desc {
+        font-size: 14px;
+    }
+
+    .section__title {
+        margin-bottom: 15px;
+    }
+    .badge__img {
+        margin-top: 30px;
+    }
+
+    .registry__tabs {
+        display: none;
+    }
+    .footer__left {
+        min-width: 200px;
+    }
+
+    .level__banner--right {
+        max-width: 300px;
+        z-index: 0;
+    }
+
+    .level__banner--right img {
+        max-width: 100%;
+    }
+
+    .level__banner--left {
+        position: relative;
+        z-index: 1;
+    }
+
+    .footer__top:before {
+        background-position: bottom left;
+    }
+
+    footer:before {
+        background-position: top left;
+    }
+    .registry__page--right {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .registry__share {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        margin-top: 20px;
+        display: inline-flex;
+    }
+    .registry__bookguide {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        margin-top: 20px;
+        display: inline-flex;
+    }
+    .registry__info--title {
+        text-align: center;
+    }
+
+    .registration__block {
+        margin-bottom: 30px;
+    }
+
+    .registration__block .registration__block--form {
+        height: auto;
+    }
+
+    .cabinet__block--left {
+        margin-bottom: 30px;
+    }
+
+    .cabinet__info--img {
+        margin-bottom: 25px;
+    }
+
+    .cabinet__info--block {
+        padding: 60px 40px;
+    }
+    .questions__banner {
+        padding: 40px 30px;
+    }
+
+
+    .questions__download--item {
+        margin: 10px 0;
+    }
+
+    .questions__result--title {
+        font-size: 30px;
+    }
+    .education__item,
+    .section__education .education__item {
+        margin-bottom: 30px;
+    }
+
+    .education__banner--info {
+        left: 50px;
+        right: 50px;
+    }
+
+    .education__banner--title {
+        font-size: 30px;
+    }
+
+    .education__banner--img {
+        height: 400px;
+    }
+    .modal__title {
+        font-size: 30px;
+    }
+
+    .routes__filter {
+        flex-direction: column-reverse;
+    }
+
+    .routes__filter--right {
+        width: 100%;
+    }
+
+    .routes__add {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .routes__filter--line {
+        margin-bottom: 10px;
+    }
+
+    .routes__item--absol {
+        padding: 20px;
+    }
+
+    .routes__item--img {
+        height: 200px;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .banner__block--right img {
+        max-width: 100%;
+    }
+
+    .banner__block {
+        margin-bottom: 50px;
+    }
+
+    .section__title {
+        font-size: 24px;
+    }
+
+    .badge__desc ul {
+        font-size: 14px;
+    }
+
+    .registry__title--block {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .registry__title--block .section__link {
+        margin-top: 30px;
+    }
+
+    .level__banner {
+        padding: 60px 45px;
+        padding-bottom: 150px;
+    }
+
+    .footer__row {
+        flex-direction: column;
+    }
+
+    .footer__left {
+        margin-bottom: 40px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .footer__logo {
+        margin-bottom: 15px;
+    }
+
+    .footer__left--menu .menu li {
+        margin-bottom: 10px;
+    }
+    .registration__title {
+        margin-bottom: 30px;
+    }
+    .registry_page__title--block {
+        flex-direction: column-reverse;
+        margin-top: 10px;
+    }
+
+    .registry__info--rating {
+        position: relative;
+        left: 0;
+        margin-left: 0;
+    }
+
+    .questions__item {
+        padding-left: 0;
+        padding-bottom: 15px;
+    }
+
+    .questions__item:before {
+        display: none;
+    }
+
+    .questions__item--check {
+        display: none;
+    }
+
+    .questions__item--info {
+        padding: 30px 20px;
+    }
+
+    .questions__result--title {
+        font-size: 26px;
+    }
+
+    .questions__result--subtitle {
+        font-size: 20px;
+    }
+    .questions__download--title {
+        font-size: 26px;
+    }
+
+    .questions__download--link a {
+        font-size: 16px;
+    }
+
+    .questions__download--item {
+        padding: 20px;
+    }
+
+    .questions__download--img {
+        width: 150px;
+        height: 150px;
+    }
+    .education__item--margin:last-child .education__item {
+        margin-bottom: 0;
+    }
+    .banner__block--right {
+        height: 90%;
+    }
+
+    .account__info--contact {
+        flex-direction: column;
+    }
+
+    .account__contact--item {
+        margin: 5px 0;
+    }
+    .account__info--icon {
+        display: none;
+    }
+
+    .account__info--name {
+        font-size: 20px;
+    }
+
+
+    .account__tab--list .menu li {
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width: 645px) {
+    .banner__left {
+        padding-bottom: 125px;
+    }
+
+    .footer__menu--list .menu {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .footer__menu--list {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer__menu--title {
+        text-align: center;
+    }
+
+    .footer__social {
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .social__item:last-child {
+        margin-right: 0;
+    }
+
+    .footer__top:before {
+        background-size: 100%;
+        height: 30px;
+    }
+
+    footer:before {
+        background-size: 100%;
+        height: 80px;
+        top: -50px;
+    }
+
+    footer {
+        padding-top: 0;
+    }
+    .reviews__sliders {
+        margin-top: 50px;
+    }
+
+    .registry__info--title {
+        font-size: 35px;
+    }
+
+    .registry__info--contacts {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .registry__contact--item {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    .cabinet__info--img {
+        width: 167px;
+        height: 167px;
+        border-width: 3px;
+    }
+
+    .cabinet__info--title {
+        font-size: 30px;
+    }
+
+    .cabinet__my--block .cabinet__info--title {
+        font-size: 25px;
+    }
+    .education__item--img {
+        height: 250px;
+    }
+
+    .education__tabs--item {
+        margin-right: 20px;
+    }
+
+    .education__tabs--item a {
+        font-size: 20px;
+    }
+    .banner__block--right {
+        height: 80%;
+    }
+    .badge__stage--number:after{
+        display: none;
+    }
+
+
+    .modal__block .vm--modal {
+        width: 95% !important;
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+    .modal__block--wrapper {
+        padding: 50px;
+    }
+    .account__info--social {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .account__info--top {
+        flex-wrap: wrap;
+    }
+
+
+    .account__tab--list .menu a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .account__tab--list .menu a img {
+        width: 15px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .registry__top--item {
+        flex-direction: column;
+    }
+
+    .registry__top--left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .registry__top--img {
+        margin: 0 auto;
+    }
+
+    .registry__top--right {
+        text-align: center;
+    }
+
+    .registry__top--info {
+        padding: 0;
+    }
+
+    .registry__page--left {
+        width: 160px;
+        height: 160px;
+    }
+
+    .registry__page--right {
+        padding-top: 100px;
+    }
+
+    .registry__info--title {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .registry__page {
+        margin-top: 80px;
+    }
+
+    .check__text {
+        font-size: 16px;
+    }
+
+    .form__block--check {
+        margin-bottom: 5px;
+        margin-right: 5px;
+        display: inline-block;
+    }
+
+    .questions__result--title {
+        font-size: 22px;
+    }
+
+    .questions__result--subtitle {
+        font-size: 18px;
+    }
+
+    .questions__result--desc {
+        font-size: 12px;
+    }
+    .education__banner--title {
+        font-size: 25px;
+        max-width: 100%;
+    }
+
+    .education__banner--info {
+        left: 30px;
+        right: 30px;
+    }
+
+    .education__banner--img {
+        height: 350px;
+    }
+
+    .account__page--info {
+        padding: 40px 25px;
+    }
+    .account__right--block {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .header__login {
+        margin-left: 25px;
+    }
+
+    .header__logo img {
+        max-width: 70px;
+    }
+
+    .header__lang--text {
+        font-size: 14px;
+    }
+
+    .header__login--icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .header__login--icon svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    header {
+        margin-bottom: 10px;
+    }
+
+    .slider__arrows--registry {
+        margin-top: 40px;
+    }
+
+    .banner__right {
+        margin-bottom: 5px;
+    }
+
+    .form__block--yellow,
+    .form__block--blue {
+        padding: 40px 20px;
+        border-radius: 35px;
+    }
+
+    .section__block--shadow {
+        padding: 40px 20px 30px 20px;
+    }
+
+    .section__block--title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .registry__info--second-info {
+        flex-direction: column;
+    }
+
+    .registry__info--experience {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .registry__info--rating {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .registry__price--title {
+        font-size: 14px;
+    }
+
+    .registry__price--item {
+        font-size: 14px;
+    }
+
+    .registry__info--contacts {
+        margin-bottom: 10px;
+    }
+
+    .cabinet__lang--item img {
+        height: 30px;
+        width: 70px;
+    }
+
+    .questions__item--text {
+        font-size: 12px;
+    }
+
+    .answer__text {
+        font-size: 12px;
+    }
+
+    .answer__text--check {
+        margin-right: 10px;
+    }
+
+    .questions__item--info {
+        padding: 20px 15px;
+        border-radius: 30px;
+    }
+
+    .questions__banner {
+        border-radius: 30px;
+        margin-bottom: 20px;
+        padding: 30px 20px;
+    }
+
+    .questions__banner--text {
+        font-size: 12px;
+    }
+
+    .questions__download--img {
+        width: 100px;
+        height: 100px;
+    }
+    .education__item--title {
+        font-size: 18px;
+    }
+
+    .education__program--item {
+        padding: 20px 30px;
+    }
+
+    .education__program--desc {
+        font-size: 14px;
+    }
+    .education__info--item {
+        padding: 30px 20px;
+        height: auto;
+    }
+
+    .registration__stage--item span {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+    }
+    .modal__title {
+        font-size: 25px;
+    }
+
+    .account__list--line {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .account__list--left {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 5px;
+    }
+    .account__info--title {
+        font-size: 18px;
+    }
+    .account__pageedit--photo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .account__pageedit--imgtext {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .header__login {
+        margin-left: 15px;
+    }
+
+    .header__lang--burger {
+        margin-left: 15px;
+    }
+
+    .banner__block {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 45px;
+    }
+
+    .section__title {
+        font-size: 22px;
+    }
+
+
+    .task__item--img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .task__item--img img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .level__banner {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 45px;
+    }
+
+    .level__banner--desc {
+        font-size: 14px;
+    }
+
+    .input__button,
+    .link__btn {
+        font-size: 16px;
+    }
+
+    footer:before {
+        height: 50px;
+        top: -50px;
+        background-position: bottom left;
+    }
+
+    .section__bg + footer {
+        margin-top: 0;
+    }
+    .review__item {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .review__item--desc {
+        font-size: 13px;
+    }
+
+    .badge__stage--text {
+        font-size: 16px;
+    }
+
+    .banner__block--right {
+        bottom: -30px;
+    }
+
+    .level__banner--right {
+        right: 20px;
+    }
+
+    .level__banner {
+        padding-bottom: 120px;
+    }
+
+    .registry__page--right {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .registry__info--title {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+
+    .registry__info--experience {
+        font-size: 14px;
+    }
+
+    .registry__city--text {
+        font-size: 14px;
+    }
+
+    .registry__contact--item a {
+        font-size: 14px;
+    }
+
+    .form__block .form__listitem--button {
+        margin-top: 30px;
+    }
+    .check__text {
+        font-size: 12px;
+    }
+
+
+    .cabinet__info--qrcode {
+        min-width: 150px;
+        width: 150px;
+        height: 150px;
+        margin-top: 20px;
+    }
+
+    .cabinet__my--block {
+        padding: 40px 20px;
+    }
+
+    .cabinet__my--block .cabinet__info--title {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .cabinet__my--block .cabinet__info--position {
+        font-size: 14px;
+    }
+
+    .cabinet__info--title {
+        font-size: 25px;
+    }
+
+    .cabinet__info--block {
+        padding: 40px 20px;
+    }
+    .cabinet__certificate--img {
+        display: none;
+    }
+
+    .questions__download--title {
+        font-size: 20px;
+    }
+
+    .education__banner--title {
+        font-size: 20px;
+    }
+    .education__page .education__banner{
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .education__banner {
+        border-radius: 0;
+    }
+    .banner__block--right {
+        height: 60%;
+    }
+
+    .modal__title {
+        font-size: 20px;
+    }
+
+    .modal__block--wrapper {
+        padding: 30px 20px;
+    }
+
+    .modal__block .vm--modal {
+        border-radius: 30px;
+    }
+
+    .modal__block--close {
+        right: 15px;
+        top: 15px;
+    }
+
+    .account__pageedit--left .input__button {
+        margin-bottom: 10px;
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+}
+@media screen and (max-width: 320px) {
+
+}

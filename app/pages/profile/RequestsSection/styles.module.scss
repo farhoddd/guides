@@ -1,0 +1,113 @@
+.requests{
+  margin-top: 20px;
+}
+
+.sort{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &Wrapper{
+    display: flex;
+  }
+  &Date{
+    border: 1px solid var(--dark);
+    background: transparent;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    width: 280px;
+  }
+}
+
+.table{
+  margin-top: 75px;
+  table-layout: fixed;
+  &Actions{
+    svg{
+      cursor: pointer;
+    }
+    span:first-child{
+      margin-right: 20px;
+    }
+  }
+  &Empty{
+    height: 200px;
+    text-align: center;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .table{
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .sort{
+    flex-direction: column;
+    align-items: flex-start;
+    &Wrapper{
+      flex-direction: column-reverse;
+      margin-bottom: 10px;
+    }
+  }
+  .table{
+    font-size: 12px;
+    margin-top: 15px;
+    td{
+      padding: 10px 15px;
+    }
+    &Actions{
+      display: flex;
+      flex-direction: column;
+      svg{
+        width: 30px;
+        height: 30px;
+      }
+      span:first-child{
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .table{
+    font-size: 11px;
+    overflow-x: scroll;
+    td{
+      padding: 6px 10px;
+    }
+    &Actions{
+      display: flex;
+      flex-direction: row;
+      svg{
+        width: 30px;
+        height: 30px;
+      }
+      span:first-child{
+        margin-bottom: 0;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 645px){
+  .table{
+    font-size: 9px;
+    td{
+      padding: 5px;
+    }
+    &Actions{
+      svg{
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+}

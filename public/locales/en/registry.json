@@ -1,0 +1,8 @@
+{
+  "title": "<strong> Register </strong> of guides",
+  "top": "Top 10",
+  "all_guides": "All guides",
+  "alphabet": "Sort alphabetically",
+  "search": "Search by name",
+  "search_error": "Your search for \"{msg}\" did not return any results."
+}

@@ -1,0 +1,63 @@
+.accordion {
+  background: var(--gray);
+  color: var(--blue-light);
+  width: 100%;
+  padding: 35px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  &Top {
+    display: flex;
+    align-items: center;
+
+    svg {
+      transform: rotate(-90deg);
+      width: 20px;
+      margin-right: 20px;
+      cursor: pointer;
+
+      path {
+        stroke: var(--blue-light);
+      }
+    }
+
+    &Title {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 21.94px;
+    }
+  }
+
+  &Content {
+    padding-left: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.85px;
+    margin-top: 10px;
+  }
+
+  &Hidden {
+    opacity: 0;
+    transition: var(--transition);
+    height: 0;
+    svg {
+      margin-right: 10px;
+    }
+  }
+
+  &Expanded {
+    &.accordionTop{
+      svg{
+        transform: rotate(90deg);
+      }
+    }
+    &.accordionTop > svg{
+      transform: rotate(90deg);
+    }
+    &.accordionHidden{
+      margin-top: 25px;
+      opacity: 1;
+      height: auto;
+    }
+  }
+}

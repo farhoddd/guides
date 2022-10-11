@@ -1,0 +1,16 @@
+{
+  "title": "Registration",
+  "forget_password": "Forgot your password or username?",
+  "button": "Registration",
+  "error": "Error!",
+  "name": "Name",
+  "surname": "Last name",
+  "patronymic": "Patronymic",
+  "category": "Guide category",
+  "mail": "Mail",
+  "phone": "Phone",
+  "region": "Region",
+  "required": "Required fields",
+  "password": "Password",
+  "passwordConfirmation": "Password confirmation"
+}

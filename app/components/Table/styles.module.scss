@@ -1,0 +1,119 @@
+.tableWrapper{
+  width: 100%;
+  min-height: 300px;
+  background: var(--white);
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  padding: 40px;
+}
+
+.table{
+  width: 100%;
+  tr{
+    border-radius: 22px;
+    transition: var(--transition);
+    &:nth-child(even){
+      background: #FFFDF7;
+    }
+  }
+  td{
+    padding: 15px 20px;
+    &:first-child{
+      border-top-left-radius: 22px;
+      border-bottom-left-radius: 22px;
+    }
+    &:last-child{
+      border-top-right-radius: 22px;
+      border-bottom-right-radius: 22px;
+    }
+    a{
+      transition: var(--transition);
+      text-decoration: none;
+      color: var(--dark);
+      &:hover{
+        color: var(--blue-dark);
+      }
+    }
+  }
+}
+
+.pagination{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  &ItemsPerPage{
+    display: flex;
+    margin-right: 25px;
+    div{
+      cursor: pointer;
+      position: relative;
+      margin-left: 10px;
+    }
+    svg{
+      width: 20px;
+      height: 20px;
+      transform: rotate(270deg);
+      transition: var(--transition);
+    }
+  }
+  &CurrentPage{
+    margin-right: 25px;
+  }
+  &Controls{
+    button{
+      outline: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      &:disabled{
+        svg{
+          path{
+            fill: #F3F3F3;
+          }
+        }
+      }
+      &:last-child{
+        svg{
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.dropdown{
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  margin: 0;
+  list-style-type: none;
+  top: 20px;
+  right: 0;
+  z-index: var(--dropdown-index);
+  background-color: var(--white);
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 0;
+  li{
+    padding: 10px 15px;
+    font-size: 14px;
+    transition: var(--transition);
+    &:hover{
+      background-color: darken(#fff, 10);
+      border-radius: 10px;
+    }
+  }
+}
+
+.dropdownOpen{
+  svg{
+    transform: rotate(90deg);
+  }
+  .dropdown{
+    display: flex;
+  }
+}

@@ -1,0 +1,16 @@
+.reviews{
+  &List{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+    margin-top: 70px;
+    &Empty{
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}

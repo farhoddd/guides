@@ -1,0 +1,43 @@
+.success{
+  padding: 80px;
+  min-height: 200px;
+  width: 100%;
+  background: var(--blue-dark);
+  border-radius: 50px;
+  position: relative;
+  margin-top: 50px;
+  &Left{
+    &Title{
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 43px;
+      color: var(--white);
+      text-transform: uppercase;
+    }
+    &Description{
+      margin-top: 25px;
+      font-size: 36px;
+      font-weight: 300;
+      color: var(--white);
+    }
+    &Controls{
+      display: inline-flex;
+      margin-top: 30px;
+      &Button{
+        cursor: pointer;
+        background: var(--orange);
+        box-shadow: none;
+        border-radius: 50px;
+        color: var(--blue-light) !important;
+        font-weight: 600;
+        font-size: 14px;
+        margin-right: 20px;
+      }
+    }
+  }
+  &Right{
+    position: absolute;
+    right: 40px;
+    bottom: -13px;
+  }
+}

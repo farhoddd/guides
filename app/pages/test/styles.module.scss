@@ -1,0 +1,237 @@
+.test {
+	width: 100%;
+	background: var(--gray);
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	border-radius: 50px;
+	margin-top: 50px;
+
+	&Top {
+		color: var(--orange);
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 25px;
+
+		span {
+			margin-left: 20px;
+		}
+	}
+
+	&Title {
+		margin-top: 15px;
+		font-weight: 500;
+		font-size: 36px;
+		line-height: 43px;
+		color: var(--blue-light);
+	}
+
+	&Progress {
+		margin-top: 30px;
+		display: flex;
+		align-items: center;
+
+		&Questions {
+			margin-right: 20px;
+			padding: 15px 25px;
+			background: var(--blue-light);
+			border-radius: 50px;
+			font-size: 14px;
+			font-weight: 600;
+			color: var(--white);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		&Indicator {
+			padding: 10px 25px;
+			border-radius: 50px;
+			background: var(--white);
+			width: 345px;
+			display: flex;
+			flex-direction: column;
+			height: 50px;
+			margin-right: 20px;
+
+			&Progress {
+				font-weight: 300;
+				font-size: 14px;
+				line-height: 17px;
+			}
+
+			&Bar {
+				position: relative;
+				width: 100%;
+				height: 3px;
+				background: var(--gray);
+				margin-top: 3px;
+				border-radius: 5px;
+
+				&Percentage {
+					position: absolute;
+					left: 0;
+					border-radius: 5px;
+					background: var(--orange);
+					height: 3px;
+				}
+			}
+		}
+
+		&Result {
+			position: relative;
+			padding: 15px 25px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			font-weight: 300;
+			border-radius: 50px;
+			width: 285px;
+			font-size: 14px;
+			color: var(--blue-light);
+			background: var(--white);
+
+			span {
+				position: absolute;
+				font-weight: 600;
+				font-size: 24px;
+				color: var(--orange);
+				right: 15px;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+		}
+	}
+
+	&Question {
+		border-radius: 50px;
+		background: var(--white);
+		padding: 40px;
+		margin-top: 30px;
+		&Title {
+			font-weight: 600;
+			font-size: 18px;
+			line-height: 20px;
+			margin-bottom: 20px;
+		}
+		&Option {
+			display: flex;
+			align-items: center;
+			margin-bottom: 20px;
+			input {
+				width: 18px;
+				height: 18px;
+				border-radius: 6px;
+				border-color: var(--blue-light);
+			}
+			label {
+				margin: 0 0 0 15px;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 20px;
+			}
+		}
+		&Answer {
+			display: flex;
+			span {
+				margin-left: 20px;
+			}
+		}
+	}
+
+	&Controls {
+		margin-top: 30px;
+		button {
+			margin-right: 20px;
+		}
+	}
+	&Button {
+		background: none;
+		padding: 10px 25px;
+		background: var(--gray-light);
+		border: none;
+		color: var(--blue-light);
+		border-radius: 50px;
+		display: inline-flex;
+		justify-content: space-between;
+		align-items: center;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 17px;
+		transition: var(--transition);
+		svg {
+			margin-right: 10px;
+		}
+		&Next {
+			svg {
+				transform: rotate(180deg);
+				margin-left: 10px;
+				margin-right: 0;
+			}
+		}
+		outline: none;
+		&:focus {
+			outline: none;
+		}
+		&:hover {
+			background: var(--blue-light);
+			color: var(--white);
+			svg {
+				path {
+					stroke: var(--white);
+				}
+			}
+		}
+	}
+}
+.testv {
+	width: 100%;
+	background: var(--gray);
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	border-radius: 50px;
+	margin-top: 50px;
+
+	&Answer {
+		border-radius: 50px;
+		background: var(--white);
+		padding: 40px;
+		margin-top: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+
+		&Title {
+			font-size: 25px;
+			line-height: normal;
+			font-weight: 400;
+			margin-top: 20px;
+			margin-left: 100px;
+			height: 35%;
+			color: var(--blue-light);
+		}
+		&Variants {
+			margin-left: 40px;
+			height: 65%;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+
+			&item {
+				display: flex;
+				width: 100%;
+				margin-top: 20px;
+				align-items: center;
+				justify-content: flex-start;
+
+				span {
+					font-size: 20px;
+					font-weight: 400;
+					line-height: normal;
+					margin-left: 10px;
+				}
+			}
+		}
+	}
+}

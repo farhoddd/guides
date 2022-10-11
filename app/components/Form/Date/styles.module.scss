@@ -1,0 +1,57 @@
+.input{
+  position: relative;
+  &Label {
+    background: #FAFAFA;
+    border: 1px solid #f4f4f4;
+    padding: 10px 15px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  &Icon{
+    padding: 8px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+
+@media screen and (max-width: 1200px){
+  .inputLabel{
+    padding: 9px 14px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .inputLabel{
+    padding: 8px 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .inputLabel{
+    padding: 7px 12px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .inputLabel{
+    padding: 6px 11px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .inputLabel{
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (max-width: 425px){
+}

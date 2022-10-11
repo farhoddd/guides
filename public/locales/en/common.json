@@ -1,0 +1,122 @@
+{
+  "system": {
+    "registration": "Registration",
+    "back": "back",
+    "not_found": "Page not found",
+    "to_main": "Home",
+    "save": "Save",
+    "soon_guides": "<strong>Guides will be here</strong> soon"
+  },
+  "auth": {
+    "title": "Login",
+    "login": "Login",
+    "input": {
+      "password": "Your password",
+      "email": "Your mail"
+    },
+    "required": {
+      "error": "Invalid username or password!"
+    }
+  },
+  "registration": {
+    "title": "Registration",
+    "forget_password": "Forgot your password or username?",
+    "button": "Registration",
+    "required": {
+      "error": "Error!"
+    },
+    "input": {
+      "name": "Name",
+      "surname": "Last name",
+      "patronymic": "Patronymic",
+      "category": "Guide category",
+      "mail": "Mail",
+      "phone": "Phone",
+      "region": "Region",
+      "required": "Required fields"
+    }
+  },
+  "main": {
+    "about": {
+      "title": "<strong> Description </strong>",
+      "desc": "This module will allow guides to register as an official guide, tour guide, or tourism instructor of JSC «НК» «Kazakh Tourism» and display their profile on the national tourism portal. The module also allows the guide to undergo training, confirm their competence and gain access to the knowledge base absolutely free. \n Tour operators and users will be able to find an up-to-date register of guides, tour guides and tourism instructors on Kazakhstan.travel, as well as verify official guides by scanning the QR code. "
+    },
+    "work": {
+      "title": "<strong> How it </strong> works",
+      "tasks": {
+        "task_1": "Complete the online training",
+        "task_2": "Get tested and upload your certificates",
+        "task_3": "Upload data about yourself and your skills",
+        "task_4": "Your <strong> personal profile </strong> is available on the Kazakhstan.travel portal",
+        "task_5": "Receive a <strong> guide certificate and QR code </strong> required for guide work and benefits."
+      }
+    },
+    "badge": {
+      "title": "<strong> Digitization of a single </strong> register of guides",
+      "desc": "<ul> \n <li> Certification system for guides by level with the assignment of a special QR code </li> \n <li> Improvement of the register of guides, tour guides and tourism instructors </li> \n </ ul > ",
+      "stage_1": "Testing <br> knowledge of guides",
+      "stage_2": "Practical exam at the IOE",
+      "stage_3": "Legalization of activities (IP, LLP)",
+      "stage_4": "Registry"
+    },
+    "registry": {
+      "title": "<strong> Register </strong> of guides",
+      "link": "Complete list",
+      "category_1": "Guides",
+      "category_2": "Regional",
+      "category_3": "National guides",
+      "category_4": "Tourism Instructors"
+    },
+    "level": {
+      "title": "<strong> Raise </strong> <br> your level!",
+      "desc": "Three levels are available: beginners, regional and national guides, each level has different requirements",
+      "link": "Take the tutorial"
+    },
+    "reviews": {
+      "title": "<strong> Reviews </strong>"
+    }
+  },
+  "about": {
+    "title": "About the module",
+    "banner": {
+      "title": "<strong> Raise </strong> <br> your level!",
+      "desc": "Three levels are available: beginners, regional and national guides, each level has different requirements"
+    },
+    "about": {
+      "title": "<strong> Description </strong>",
+      "desc": "This module will allow guides to register as an official guide, tour guide, or tourism instructor of JSC «НК» «Kazakh Tourism» and display their profile on the national tourism portal. The module also allows the guide to undergo training, confirm their competence and gain access to the knowledge base absolutely free. \n Tour operators and users will be able to find an up-to-date register of guides, tour guides and tourism instructors on Kazakhstan.travel, as well as verify official guides by scanning the QR code. "
+    }
+  },
+  "registry": {
+    "title": "<strong> Register </strong> of guides",
+    "top": "Top 10",
+    "all_guides": "All guides",
+    "alphabet": "Sort alphabetically",
+    "search": "Search by name",
+    "search_error": "Your search for \"{msg}\" did not return any results."
+  },
+  "registry__item": {
+    "title": "<strong> About the guide </strong>",
+    "desc": "<p> I was born in Almaty, graduated from school and university in Kokshetau, I have been living in Astana since 2007. I love to travel and discover new horizons, learn about the culture of different countries and talk about our Motherland, so I I chose to work as a guide, which I call “a journey to the land in which I live.” I have two higher educations. </p> \n <p> I came to work as a guide with experience in the oil and gas and investment industries: </p> \n <ul> \n <li> Investor Relations Analyst KazMunayGas Exploration Production JSC, (2008-2011, Astana) </li> \n <li> Volunteer in the international project Solidarite Jeunesses (2012, France) </li> \n <li> Assistant to the main shareholder of Verny Investments Holding JSC (2012-2014, Astana) </li> \n <li> Guide-interpreter (excursions in Russian, English and French, the first groups with 2012, constant work as a guide since 2014 in Almaty). </li> \n </ul> \n <p> \n I am in the register of guides Tourism Industry Committee of the MKS RK (registration number E-009 dated 04.24.16) \n </p> ",
+    "price": "Cost of excursions",
+    "engl": "English 5 000 tenge",
+    "franc": "French 6 500 tg."
+  },
+  "account": {
+    "title": "<strong>Personal</strong> cabinet"
+  },
+  "menu": {
+    "home": "Home",
+    "about": "About the module",
+    "education": "Education",
+    "certification": "Certification",
+    "register": "Register of guides"
+  },
+  "alphabet": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
+  "footer": {
+    "feedback": "Feedback",
+    "contacts": "Contacts",
+    "partners": "Partners",
+    "for_business": "For business"
+  }
+}

@@ -1,0 +1,161 @@
+.tours{
+  &List{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 30px;
+  }
+  &Empty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 250px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  &Item{
+    display: flex;
+    flex-direction: column;
+    &Card{
+      position: relative;
+      background: #c4c4c4;
+      border-radius: 10px;
+      height: 235px;
+      img{
+        border-radius: inherit;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      &Content{
+        position: absolute;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.63) 100%);
+        border-radius: inherit;
+        top: 0;
+        padding: 25px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 2;
+        color: var(--white);
+        &:hover .toursItemCardContentDelete{
+          opacity: 1;
+        }
+        &Delete{
+          opacity: 0;
+          transition: var(--transition);
+          border-radius: 100%;
+          background: var(--white);
+          width: 30px;
+          height: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          &Icon{
+            &:after{
+              display: block;
+              content: "\00d7";
+              font-size: 28px;
+              font-weight: 400;
+              color: #D75E5E;
+              transition: .2s;
+            }
+            &:hover{
+              &:after{
+                color: lighten(#D75E5E, 10);
+              }
+            }
+          }
+        }
+        &Rating{
+          display: flex;
+          align-items: center;
+          font-size: 17px;
+          line-height: 22px;
+          svg{
+            margin-right: 5px;
+          }
+        }
+        &Reviews{
+          margin-top: 5px;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 17px;
+          svg {
+            path{
+              stroke: #fff;
+            }
+          }
+        }
+      }
+    }
+    &Title{
+      margin-top: 15px;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+    }
+    &Region{
+      display: flex;
+      align-items: center;
+      margin-top: 15px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 12px;
+      svg{
+        margin-right: 5px;
+        path{
+          stroke: var(--gold-black);
+        }
+      }
+    }
+  }
+}
+
+.sort{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  &Filter{
+    display: flex;
+    div:first-child{
+      margin-right: 1rem;
+    }
+  }
+  &Add{
+    padding: 15px 25px;
+    align-self: flex-end;
+  }
+}
+
+.delete{
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  h5{
+    margin-top: 30px;
+  }
+  p{
+    margin-top: 50px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+  }
+  &Controls{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    &Danger{
+      background: var(--danger);
+      margin-right: 25px;
+    }
+  }
+}

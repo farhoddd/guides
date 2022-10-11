@@ -1,0 +1,134 @@
+.tabs{
+  display: flex;
+}
+
+.tab{
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  background: var(--blue-dark);
+  padding: 15px;
+  border-radius: 5px;
+  margin-right: 5px;
+  transition: var(--transition);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  img{
+    margin-right: 10px;
+  }
+  &:hover{
+    background: var(--dark);
+  }
+  &Active{
+    background: var(--dark);
+  }
+}
+
+.profile{
+  width: 100%;
+  border: 1px solid var(--gold-black);
+  border-radius: 50px;
+  padding: 65px 70px;
+  display: flex;
+  justify-content: space-between;
+  &LeftSide{
+    width: 60%;
+  }
+  &RightSide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+  }
+}
+
+.emptyImage{
+  img{
+
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .tab{
+    font-size: 15px;
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .tab{
+    font-size: 13px;
+    padding: 10px;
+  }
+  .profile{
+    padding: 35px;
+    &RightSide{
+      padding-left: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .tab{
+    font-size: 12px;
+    padding: 8px;
+  }
+  .profile{
+    padding: 30px;
+    &RightSide{
+      min-width: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: 645px){
+  .tab{
+    font-size: 11px;
+    padding: 6px;
+  }
+  .profile{
+    padding: 25px;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .tab{
+    font-size: 10px;
+    line-height: 14px;
+    padding: 5px;
+    img {
+      margin-right: 5px;
+    }
+    margin-right: 4px;
+  }
+  .profile{
+    &LeftSide{
+      width: 100%;
+    }
+    &RightSide{
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 425px){
+  .tabs{
+    flex-direction: column;
+  }
+  .tab{
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 13px;
+    padding: 6px 10px;
+    img{
+      margin-right: 10px;
+    }
+  }
+  .profile{
+    padding: 30px 10px;
+    border-radius: 30px;
+  }
+}

@@ -1,0 +1,51 @@
+.heading{
+  font-size: 36px;
+  line-height: 43.88px;
+  font-weight: 600;
+  span{
+    font-weight: 300;
+  }
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1200px){
+  .heading{
+    font-size: 34px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .heading{
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .heading{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 645px){
+  .heading{
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .heading{
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .heading{
+    font-size: 22px;
+    line-height: 28px;
+  }
+}

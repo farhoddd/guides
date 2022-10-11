@@ -1,0 +1,53 @@
+.review{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  position: relative;
+  padding: 60px 30px 40px 30px;
+  height: 100%;
+  min-height: 200px;
+  &Modal{
+    padding-top: 30px;
+    width: 585px;
+  }
+  &Top{
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+    display: flex;
+    padding: 10px 25px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  &Stars{
+    display: flex;
+    align-items: center;
+  }
+  &Title{
+    font-weight: 600;
+    font-size: 14px;
+    color: #0E1839;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+  &Like{
+    width: 46px;
+    height: 46px;
+    background: #FFFBF5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    border-radius: 100%;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  &Desc{
+    font-size: 14px;
+    color: var(--dark);
+  }
+
+}

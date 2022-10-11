@@ -1,0 +1,48 @@
+.failure{
+  padding: 80px;
+  min-height: 200px;
+  width: 100%;
+  background: var(--gray-light);
+  border-radius: 50px;
+  position: relative;
+  margin-top: 50px;
+  &Left{
+    &Title{
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 43px;
+      color: var(--blue-light);
+      text-transform: uppercase;
+    }
+    &Status{
+      margin-top: 25px;
+      font-size: 36px;
+      font-weight: 400;
+      color: var(--orange);
+    }
+    &Description{
+      margin-top: 15px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+    }
+    &Controls{
+      display: inline-flex;
+      margin-top: 30px;
+      &Button{
+        background: var(--gray);
+        box-shadow: none;
+        border-radius: 50px;
+        color: var(--blue-light) !important;
+        font-weight: 600;
+        font-size: 14px;
+        margin-right: 20px;
+      }
+    }
+  }
+  &Right{
+    position: absolute;
+    right: 40px;
+    bottom: -13px;
+  }
+}
